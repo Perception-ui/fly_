@@ -27,20 +27,20 @@ To develop a model that learns over the available customer booking data, whose i
 
 
 ## THE SPECIFIC OBJECTIVES
-1.To improve booking conversion rates.
+1. To improve booking conversion rates.
 
-2.To enhance customer segmentation by identifying distinct customer segments based on booking patterns and use the information to tailor marketing strategies, services or offers to specific groups.
+2. To enhance customer segmentation by identifying distinct customer segments based on booking patterns and use the information to tailor marketing strategies, services or offers to specific groups.
 
-3.To increase ancilliary service adoption and optimize marketing or pricing strategies for these services.
+3. To increase ancilliary service adoption and optimize marketing or pricing strategies for these services.
 
-4.Optimize Operational Efficiency using patterns related to flight_day and flight_hour to optimize flight schedules, staffing, and other operational aspects.
+4. Optimize Operational Efficiency using patterns related to flight_day and flight_hour to optimize flight schedules, staffing, and other operational aspects.
 
-5.Improve route specific strategies.
+5. Improve route specific strategies.
 
 These objectives can be interconnected, and addressing one may positively impact others.
 
 ## RESEARCH QUESTIONS
-1.Booking conversion analysis: What are the primary factors inluencing booking completion and how do the vary across different sales channels? Can the purchase_lead time be optimized to improve booking conversion rates without adversely affecting other aspects?
+1. Booking conversion analysis: What are the primary factors inluencing booking completion and how do the vary across different sales channels? Can the purchase_lead time be optimized to improve booking conversion rates without adversely affecting other aspects?
 
 The most important factor with a predictive model is the quality of the data you use to train the machine learning algorithms. For this task, you must manipulate and prepare the provided customer booking data so that you can build a high-quality predictive model.
 
@@ -49,36 +49,36 @@ With your predictive model, it is important to interpret the results in order to
 
 
 
-2.Flight duration: Which features are most significant in trying to predict flight duration? How do aspects such as num of passengers and length of stay relate to flight duration?
+2. Flight duration: Which features are most significant in trying to predict flight duration? How do aspects such as num of passengers and length of stay relate to flight duration?
 
-3.Customer segmentation: What are the distinct customer segments based on booking patterns, and how do these segments differ in terms of preferences and behaviors? How can personalized marketing strategies be developed for each identified segment?
+3. Customer segmentation: What are the distinct customer segments based on booking patterns, and how do these segments differ in terms of preferences and behaviors? How can personalized marketing strategies be developed for each identified segment?
 
-4.Ancillary Service Adoption: What factors drive customers to opt for extra baggage, preferred seats, or in-flight meals, and are there cross-correlations between these preferences? Can targeted promotions or bundling strategies be implemented to increase the adoption of these services?
+4. Ancillary Service Adoption: What factors drive customers to opt for extra baggage, preferred seats, or in-flight meals, and are there cross-correlations between these preferences? Can targeted promotions or bundling strategies be implemented to increase the adoption of these services?
 
-5.Operational Efficiency Optimization: How do flight_day and flight_hour affect booking patterns, and how can flight schedules be optimized to match demand? Are there specific routes (route) that exhibit distinct patterns in terms of demand and booking behavior?
+5. Operational Efficiency Optimization: How do flight_day and flight_hour affect booking patterns, and how can flight schedules be optimized to match demand? Are there specific routes (route) that exhibit distinct patterns in terms of demand and booking behavior?
 
-6.Route-specific Strategies: How do customer preferences and behaviors vary across different flight routes, and what marketing or pricing strategies can be implemented for each route? Are there external factors, such as events or seasons, that significantly impact booking patterns on specific routes?
+6. Route-specific Strategies: How do customer preferences and behaviors vary across different flight routes, and what marketing or pricing strategies can be implemented for each route? Are there external factors, such as events or seasons, that significantly impact booking patterns on specific routes?
 
 ## DEFINING METRICS OF SUCCESS
-1.Booking Conversion Rates: Metric: Percentage of completed bookings (booking_complete). Success Criteria: Increase in overall booking conversion rates, with a target improvement percentage.
+1. Booking Conversion Rates: Metric: Percentage of completed bookings (booking_complete). Success Criteria: Increase in overall booking conversion rates, with a target improvement percentage.
 
 
-2.Flight Duration Prediction: Metric: Mean Absolute Error (MAE) or Root Mean Squared Error (RMSE) in predicting flight_duration. Success Criteria: Decrease in prediction error, indicating more accurate flight duration predictions.
+2. Flight Duration Prediction: Metric: Mean Absolute Error (MAE) or Root Mean Squared Error (RMSE) in predicting flight_duration. Success Criteria: Decrease in prediction error, indicating more accurate flight duration predictions.
 
 
-3.Customer Segmentation: Metric: Silhouette Score or Homogeneity Score for clustering quality. Success Criteria: Improved cluster separation and cohesion, indicating well-defined customer segments.
+3. Customer Segmentation: Metric: Silhouette Score or Homogeneity Score for clustering quality. Success Criteria: Improved cluster separation and cohesion, indicating well-defined customer segments.
 
 
-4.Ancillary Service Adoption: Metric: Percentage of customers opting for extra baggage, preferred seats, or in-flight meals. Success Criteria: Increase in adoption rates for targeted ancillary services.
+4. Ancillary Service Adoption: Metric: Percentage of customers opting for extra baggage, preferred seats, or in-flight meals. Success Criteria: Increase in adoption rates for targeted ancillary services.
 
 
-5.Operational Efficiency Optimization: Metric: Percentage of flights scheduled during peak demand days. Success Criteria: Optimization of flight schedules with an increase in the proportion of flights scheduled during peak demand times.
+5. Operational Efficiency Optimization: Metric: Percentage of flights scheduled during peak demand days. Success Criteria: Optimization of flight schedules with an increase in the proportion of flights scheduled during peak demand times.
 
 
-6.Route-specific Strategies: Metric: Percentage increase in bookings for specific routes. Success Criteria: Successful implementation of targeted marketing or pricing strategies leading to increased bookings on selected routes.
+6. Route-specific Strategies: Metric: Percentage increase in bookings for specific routes. Success Criteria: Successful implementation of targeted marketing or pricing strategies leading to increased bookings on selected routes.
 
 
-7.Customer Experience Enhancement: Metric: Customer Satisfaction Score (CSAT) based on post-travel surveys. Success Criteria: Increase in overall CSAT scores, indicating enhanced customer experience.
+7. Customer Experience Enhancement: Metric: Customer Satisfaction Score (CSAT) based on post-travel surveys. Success Criteria: Increase in overall CSAT scores, indicating enhanced customer experience.
 
 
 Each metric aligns with the specific objectives and is measurable over time. Feedback will be used to adjust strategies or models as needed to continuously improve performance.
