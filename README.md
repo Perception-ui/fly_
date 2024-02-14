@@ -30,7 +30,7 @@ In response to the challenges posed by the post-COVID-19 landscape in the aviati
 
 ## DATA UNDERSTANDING
 
-The dataset consists of 50,000 entries and comprises 15 columns. It includes both numerical and categorical features, providing insights into flight passenger preferences and booking patterns. Below is an overview of the dataset columns:
+Our dataset was sourced from 'www.forage.com'. The dataset consists of 50,000 entries and comprises 15 columns. It includes both numerical and categorical features, providing insights into flight passenger preferences and booking patterns. Below is an overview of the dataset columns:
 
 
 num_passengers - Represents the number of passengers for each booking.
