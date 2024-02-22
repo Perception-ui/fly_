@@ -81,3 +81,5 @@ The predictive models, comprising Logistic Regression and Random Forests, were e
 
 ## Conclusion 
 
+In pursuit of our objectives to enhance Horizon Airlines' services and understand customer behavior and preferences we  successfully provided Horizon Airlines with valuable insights into passenger behaviors and operational trends. Through logistic regression, random forest, and ensemble modeling, we've gained insights into predicting booking completion and uncovering travel preferences. These insights reveal critical drivers influencing both booking completion and passenger satisfaction. With a better understanding of customer preferences, Horizon Airlines can tailor services and strategies accordingly.
+
